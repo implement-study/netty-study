@@ -17,7 +17,7 @@ public class NettyServer {
 
     public static void main(String[] args) {
         new ServerBootstrap()
-            .group(new NioEventLoopGroup(), new NioEventLoopGroup())
+            .group(new NioEventLoopGroup(1), new NioEventLoopGroup())
             .channel(NioServerSocketChannel.class)
             .childHandler(new ChannelInitializer<SocketChannel>() {
                 @Override
