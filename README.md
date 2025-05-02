@@ -7,3 +7,7 @@
 - ChannelFuture的Listener和我们常见的Listener有什么区别
 - 把EventLoop替换成JDK的线程池实现异步，可以吗
 - 你心中有pipeline吗
+
+
+- [【速通Netty】(上) NIO流程科普](https://www.bilibili.com/video/BV1paLfz8EUA/)
+- [【速通Netty】(下)Netty组件和编码](https://www.bilibili.com/video/BV1dNVGzyErm/)
